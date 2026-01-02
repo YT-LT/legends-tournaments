@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Legends Tournament</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: #0b0f1a;
+  color: #fff;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #ff0057, #00f7ff);
+  animation: glow 4s infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 20px #ff0057; }
+  to { box-shadow: 0 0 40px #00f7ff; }
+}
+
+header h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+header p {
+  font-size: 16px;
+}
+
+/* Section */
+section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  color: #00f7ff;
+  border-bottom: 2px solid #ff0057;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Cards */
+.card {
+  background: #11162a;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0,247,255,0.2);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Winners */
+.winners {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Buttons */
+.btn {
+ 
